@@ -4,7 +4,8 @@
   "dependencies": {
     "gzippo": "~0.2.0",
     "express": "~4.5.1",
-    "body-parser":"*"
+    "body-parser":"*",
+    "morgan": "~1.0.0"
   },
   "devDependencies": {
     "grunt": "^0.4.1",
