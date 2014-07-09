@@ -1,4 +1,4 @@
-rtj-front
+Rule The Jungle (Frontend)
 =========
 
-The frontend application for Rule the Jungle
+This is the README for the frontend portion of the Rule The Jungle application.
