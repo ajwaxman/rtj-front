@@ -5,9 +5,15 @@ This is the README for the frontend portion of the Rule The Jungle application.
 
 **1. Install required dependencies**
 
-run `bower install`
+run `brew update`
 
-run `npm install`
+run `brew install node`
+
+run `npm install -g bower`
+
+run `npm install grunt`
+
+run `npm install -g grunt-cli `
 
 **2. Make sure you have the the sass and compass gems installed**
 
