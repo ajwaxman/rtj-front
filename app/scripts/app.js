@@ -37,5 +37,5 @@ angular
   })
   .constant('API', {
     base : (window.location.host.match('localhost') ?
-      'http://localhost:3000' : 'http://rtj-front.herokuapp.com')
+      'http://localhost:3000' : 'http://rtj-back.herokuapp.com')
   });
