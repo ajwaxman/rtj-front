@@ -34,4 +34,8 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+  })
+  .constant('API', {
+    base : (window.location.host.match('localhost') ?
+      'http://localhost:3000' : 'http://rtj-front.herokuapp.com')
   });
