@@ -10,12 +10,8 @@
 angular.module('rtjFrontApp').controller('PlanCtrl',
   ['$scope', '$http', 'API', function ($scope, $http, api) {
 
-    $http.get('http://ip.jsontest.com/').then(function(resp){
-      $("#json").text(resp.data.ip);
-    });
-
     $http.get(api.base + '/plans.json').then(function(resp){
       console.log(resp);
-    })
+    });
 
   }]);
