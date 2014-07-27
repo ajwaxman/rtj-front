@@ -1,0 +1,13 @@
+<form name="dateRequestForm" ng-controller="DateRequestCtrl">
+  Location: <input ng-model="date_request.loc"><br>
+  Relationship Status: <input ng-model="date_request.relationship_status"><br>
+  Spender: <input ng-model="date_request.spender"><br>
+  Main Event: <input ng-model="date_request.main_event"><br>
+  Date: <input ng-model="date_request.event_date"><br>
+  Time: <input ng-model="date_request.event_time"><br>
+
+  <button ng-click="submit()">Submit</button><br>
+
+  Loc: {{ date_request }}
+</form>
+

@@ -17,7 +17,11 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
-  .config(function ($routeProvider) {
+  .config(function ($routeProvider, $httpProvider) {
+    $httpProvider.defaults.useXDomain = true;
+    delete $httpProvider.defaults.headers.common["X-Requested-With"];
+    // delete $httpProvider.defaults.headers.post['Content-type'] 
+
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
