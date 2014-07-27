@@ -31,6 +31,10 @@ angular
         templateUrl: 'views/plans.html',
         controller: 'PlanCtrl'
       })
+      .when('/daterequests/new', {
+        templateUrl: 'views/daterequests/new.html',
+        controller: 'DateRequestCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
